@@ -175,14 +175,14 @@ img {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav-link:hover,
 .header-nav-link:focus,
 .header-list-link:hover,
 .header-list-link:focus {
 	color: var(--bg-hover-btn);
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-		box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	
 }
 .header-nav-link::after {
 	content: "";
@@ -202,6 +202,7 @@ img {
 	padding-bottom: 24px;
 	color: var(--main-color);
 	font-style: normal;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*------ footer------*/
 .footer {
@@ -254,12 +255,12 @@ img {
 	height: 40px;
 	border-radius: 50%;
 	background-color: var(--accent-color);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
 	background-color: var(--bg-acent);
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-		box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	
 }
 .footer-social-icon {
 	fill: var(--lighting-color);
@@ -297,12 +298,12 @@ img {
 	background-color: var(--accent-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	cursor: pointer;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
 	background-color: var(--bg-hover-btn);
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-		box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 /*------ about------*/
 .about-list {
@@ -364,11 +365,6 @@ img {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
 		0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.team-list-item:hover {
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-		box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-	/* order: 1;  */
-}
 .team-content {
 	padding: 32px 0;
 }
@@ -397,6 +393,7 @@ img {
 	height: 40px;
 	border-radius: 50%;
 	background-color: var(--accent-color);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-social-link:hover,
 .team-social-link:focus {
@@ -431,13 +428,13 @@ img {
 	border: 1px solid var(--light-slate);
 	border-radius: 4px;
 	color: var(--light-slate);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover,
 .customers-link:focus {
 	border: 1px solid var(--bg-hover-btn);
 	color: var(--bg-hover-btn);
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-	box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	
 }
 .customers-icon {
 	fill: currentColor;
@@ -460,6 +457,8 @@ img {
 	background-color: var(--lighting-color);
 	color: var(--accent-color);
 	cursor: pointer;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+	box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfl-btn:hover,
 .portfl-btn:focus {
@@ -467,8 +466,7 @@ img {
 	background-color: var(--bg-hover-btn);
 	color: var(--contrasting-color);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-	box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	
 }
 .portfl-list {
 	display: flex;
@@ -478,14 +476,14 @@ img {
 }
 .portfl-list-link {
 	display: block;
+	
+	transition:	box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfl-list-link:hover,
 .portfl-list-link:focus {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
 	0px 2px 1px rgba(46, 47, 66, 0.08);
 
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-	box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfl-thumb {
 	position: relative;
@@ -508,6 +506,7 @@ img {
 }
 .portfl-list-item {
 	width: calc((100% - 48px) / 3);
+	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfl-list-item:hover .overlay-card {
@@ -517,8 +516,7 @@ img {
 .portfl-list-item:focus {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
 		0px 2px 1px rgba(46, 47, 66, 0.08);
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-	box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	
 }
 .portfl-content {
 	padding: 32px 16px;
