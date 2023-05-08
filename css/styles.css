@@ -502,7 +502,8 @@ img {
 .portfl-list-item:focus .portfl-thumb-text {
 	transform: translateY(0%);
 } */
-.portfl-list-item:focus .portfl-thumb-text {
+.portfl-list-link:hover .portfl-thumb-text
+.portfl-list-link:focus .portfl-thumb-text {
 	transform: translateY(0%);
 }
 .portfl-list-item:hover,
