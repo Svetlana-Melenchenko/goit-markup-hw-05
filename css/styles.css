@@ -541,6 +541,7 @@ img {
 	background: rgba(46, 47, 66, 0.4);
 	transition: opacity 300ms ease-in, visibility 300ms ease-in;
 	backdrop-filter: blur(2px);
+	z-index: 100;
 }
 .overlay.is-hidden {
 	opacity: 0;
